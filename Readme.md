@@ -1,3 +1,6 @@
+# Tampilan Landing Page 🚀
+![](img/Landing_page.JPG)
+
 ## css icon Feature
 
 link css icon Feature -> souce(https://cdnjs.com/libraries/font-awesome)
