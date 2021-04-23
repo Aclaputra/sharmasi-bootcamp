@@ -1,0 +1,102 @@
+body {
+  background-color: #333232;
+}
+
+h2 {
+  color: lightblue;
+  font-size: 50px;
+  font-weight: 1000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.hr-1 {
+  border-style: dotted;
+  border-width: 10px;
+  height: 10px;
+  width: 80%;
+  color: lightslategrey;
+}
+
+.ajimustofa {
+  color: lightgreen;
+}
+
+.container-1 {
+  background-color: #414040;
+  margin: 40px;
+  padding: 30px;
+  display: flex;
+
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.main-text {
+  margin-top: 30px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-1 {
+  background-color: lightgreen;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.35);
+  transition: 0.5s;
+}
+
+.box-2 {
+  background-color: lightskyblue;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.35);
+  transition: 0.5s;
+}
+.box-3 {
+  background-color: lightpink;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.35);
+  transition: 0.5s;
+}
+
+.box-1:hover {
+  transform: scale(1.1);
+}
+.box-2:hover {
+  transform: scale(1.1);
+}
+.box-3:hover {
+  transform: scale(1.1);
+}
+
+.radius {
+  border-radius: 10px;
+}
+
+a:active {
+  text-decoration: none;
+  color: yellow;
+}
+
+img {
+  margin-top: 40px;
+}
+
+.dora-1 {
+  float: right;
+}
+
+.dora-2 {
+  float: left;
+  width: 200px;
+}
