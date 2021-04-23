@@ -1,0 +1,28 @@
+@keyframes drop-judul {
+  from {
+    top: -5%;
+  }
+
+  to {
+    top: 40%;
+  }
+}
+
+@keyframes drop-daftar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.daftar {
+  animation-name: drop-daftar;
+  animation-duration: 4s;
+}
+
+.header-sub {
+  animation-name: drop-judul;
+  animation-duration: 2s;
+}
