@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: #f4eee8;
+  height: 1000px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.shadow {
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.text-shadow {
+  text-shadow: 10px 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* Navbar */
+#navbar {
+  background-color: #325288;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+
+  width: 100%;
+  position: fixed;
+  height: 50px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  color: #f4eee8;
+
+  margin: 8px;
+}
+
+.header-nav img {
+  -webkit-filter: drop-shadow(2px 2px 2px rgb(199, 199, 199));
+  filter: drop-shadow(0.3px 0.3px 0.3px rgb(214, 212, 212));
+  transition: 1s;
+
+  cursor: pointer;
+}
+
+.header-nav img:hover {
+  transform: scale(1.5);
+}
+
+.header-nav h1 {
+  margin-top: 2px;
+  padding-left: 10px;
+
+  transition: 0.2s;
+  cursor: default;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 14px;
+  list-style: none;
+}
+
+.nav-list li {
+  padding-right: 60px;
+}
+
+.nav-list ul li a {
+  color: #f4eee8;
+  font-size: larger;
+  font-weight: 800;
+  transition: 0.3s;
+}
+
+.nav-list ul li a:hover,
+.header-nav h1:hover,
+.kursus-btn:hover {
+  color: #f5cebe;
+}
+
+/* Header */
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("img/samurai_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  height: 800px;
+  color: #f4eee8;
+}
+
+.header-sub {
+  position: relative;
+  top: 40%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-sub h1 {
+  font-size: 40px;
+}
+
+.header-sub h1 span {
+  transition: 1s;
+  cursor: default;
+}
+
+.header-sub h1 span:hover,
+.fitur i:hover {
+  color: #f84f0b;
+}
+
+.daftar {
+  position: relative;
+  top: 40%;
+
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #f4eee8;
+  color: #000;
+  font-size: 18px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s;
+}
+
+.daftar:hover {
+  color: #f4eee8;
+  background-color: #325288;
+}
+
+/* Main */
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Feature */
+.fitur-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.title-fitur {
+  text-align: center;
+  margin: 60px;
+  text-shadow: 10px 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.fitur {
+  text-align: center;
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+.fitur i {
+  padding: 20px;
+  transition: 1s;
+}
+
+.detail p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Kursus */
+
+.kursus-container {
+  margin: 60px 0;
+}
+
+.title-kursus {
+  text-align: center;
+  margin-bottom: 50px;
+  text-shadow: 10px 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.kursus-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.kursus {
+  width: 28%;
+  justify-content: space-around;
+  text-align: center;
+  padding: 70px 0;
+  border-radius: 50px;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.35);
+  transition: 0.5s;
+
+  margin-bottom: 60px;
+}
+
+.pemula {
+  background-color: lightblue;
+}
+
+.advance {
+  background-color: lightyellow;
+}
+
+.pro {
+  background-color: lightcoral;
+}
+
+.kursus ul {
+  position: relative;
+  top: -0%;
+
+  width: 60%;
+  margin: 0 auto;
+  text-align: start;
+}
+
+.judul-kursus {
+  position: relative;
+  top: -12%;
+  max-width: 60%;
+  margin: 0 auto;
+
+  font-size: 30px;
+}
+
+.price {
+  position: relative;
+  top: -5%;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.kursus-btn {
+  position: relative;
+  bottom: -10%;
+
+  background-color: #325288;
+  color: #f4eee8;
+  font-size: 20px;
+  font-weight: 600;
+  width: 85%;
+  padding: 15px 0;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+}
+
+.kursus-btn:active,
+.daftar:active {
+  background-color: #4871b8;
+}
+
+.kursus-btn:hover {
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.kursus:hover {
+  transform: translateY(-20px);
+}
+
+/* Footer */
+.footer {
+  background-color: #114e60;
+  padding: 20px;
+  text-align: center;
+  color: rgb(193, 194, 196);
+}
+
+.footer a {
+  text-decoration: none;
+  color: aliceblue;
+}
