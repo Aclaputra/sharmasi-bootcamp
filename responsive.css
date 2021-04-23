@@ -1,0 +1,48 @@
+/* tablet size viewport */
+@media (max-width: 1024px) {
+  .kursus {
+    width: 45%;
+  }
+  .kursus-wrap {
+    flex-wrap: wrap;
+  }
+}
+
+/* smartphone/handphone size viewport */
+@media (max-width: 670px) {
+  /* navbar */
+  .nav-list {
+    display: none;
+  }
+
+  /* header & main */
+  .kursus {
+    width: 100%;
+  }
+  .header {
+    height: 500px;
+  }
+  .judul {
+    margin-bottom: 10px;
+  }
+  .daftar {
+    top: 20%;
+  }
+
+  .header-sub {
+    top: 20%;
+  }
+
+  .fitur {
+    width: 100%;
+  }
+  @keyframes drop-judul {
+    from {
+      top: -5%;
+    }
+
+    to {
+      top: 20%;
+    }
+  }
+}
