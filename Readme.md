@@ -3,7 +3,7 @@
 
 ## css icon Feature
 
-link css icon Feature -> souce(https://cdnjs.com/libraries/font-awesome)
+link css icon Feature -> source(https://cdnjs.com/libraries/font-awesome)
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
