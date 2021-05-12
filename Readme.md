@@ -1,6 +1,6 @@
-# Tampilan Landing Page 🚀
+# Responsive Landing page HTML & CSS ✔
 membuat Project Landing Page Full Responsive HTML & CSS with Animations
-
+## Tampilan Landing Page 🚀
 ![](img/Landing_page.JPG)
 
 ## css icon Feature
